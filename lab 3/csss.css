@@ -6,7 +6,7 @@ h1 {
     background-color: rgb(181, 255, 132);
     border: 1.5px solid black;
     text-align: left;
-    float: left;
+  
 }
 
 @media (min-width: 993px) {
