@@ -1,76 +1,31 @@
-h1{
-    text-align: center;
-    }
-    
-    .Main{
-        font-style: oblique;
-        background-color: #c9edd1;
-        border-style: solid;
-        border-color: black;
-        border-width: 2px;
-        margin: 2%;
-    } 
-    .MainCaption{
-        text-align: right;
-    }
-    .Caption{
-        float: right;
-        text-align: center;
-    }
-    .Caption p{
-        font-size: 12pt;
-        background-color: #7ffc11;
-        margin: 2px;
-        border: 1px solid black;
-    }
-    #cap2{
-    background-color: rgb(255, 70, 193);
-    }
-    #cap3{
-        background-color: rgb(220, 238, 151);
-        }
-    
-    
-    .row {
-    display:flex;
-    }
-    
-    @media (min-width: 768px) and (max-width: 992px) {
-    .Main{
-        
-    }
-    .row {
-      
-        flex-wrap:wrap;
-        
-    }
-    .Main:nth-of-type(1){
-        flex:1;
-    }
-    .Main:nth-of-type(2){
-        flex:1;
-    }
-    #cap2{
-        background-color: rgb(175, 70, 255);
-        }
-        #cap3{
-            background-color: rgb(238, 198, 151);
-            }
-        
-    }
-    
-    @media (max-width: 768px){
-    .Main{
-        
-    }
-    .row {
-        
-        }
-        #cap2{
-            background-color: rgb(255, 70, 218);
-            }
-            #cap3{
-                background-color: rgb(238, 198, 151);
-                }
-            
-    }
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link  href="css/style.css" rel="stylesheet">
+    <title>Laba 3</title>
+</head>
+<body>
+<h1>Main caption</h1>
+<div class="row">
+
+<div class="Main">
+<div class="MainCaption">
+<div class="Caption" id="coll1"><p id="cap1">Caption 1</p></div>
+</div>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint ducimus architecto eos illo earum harum autem, aliquam dolor veritatis repellat aut culpa voluptas, inventore voluptatum similique quidem delectus cum expedita!.Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint ducimus architecto eos illo earum harum autem, aliquam dolor veritatis repellat aut culpa voluptas, inventore voluptatum similique quidem delectus cum expedita!</p>
+</div>
+
+<div class="Main">
+<div class="Caption" id="coll2"><p id="cap2">Caption 2</p></div>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure accusamus voluptatem nam. Reiciendis labore est, cum ex odit totam voluptatum exercitationem earum voluptatibus necessitatibus fugiat molestias quibusdam voluptatem eligendi quidem? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure accusamus voluptatem nam. Reiciendis labore est, cum ex odit totam voluptatum exercitationem earum voluptatibus necessitatibus fugiat molestias quibusdam voluptatem eligendi quidem?</p>
+</div>
+
+<div class="Main">
+<div class="Caption" id="coll3"><p id="cap3">Caption 3</p></div>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur nulla sequi dolores accusamus, repudiandae nobis ipsam eaque? Quasi sapiente harum, id reprehenderit ducimus velit perferendis ipsum, iure incidunt minus quaerat.Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur nulla sequi dolores accusamus, repudiandae nobis ipsam eaque? Quasi sapiente harum, id reprehenderit ducimus velit perferendis ipsum, iure incidunt minus quaerat.</p>
+</div>
+
+</div>
+</body>
+</html>
