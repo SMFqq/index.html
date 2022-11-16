@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital@1&display=swap');
+
+h1 {
+    font-family: Oswald;
+}
+td {
+    border: 1px solid black;
+    padding: 5px;
+}
+th {
+    text-align: center;
+    border: 1px solid black;
+}
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: left;
+}
+.block1{
+    background-color: rgb(255, 153, 0);
+    color: rgb(0, 0, 0);
+    font-family: Roboto Condensed;
+}
+.block11{
+    background-color: brown;
+    color: rgb(81, 255, 0);
+    height: 25px;
+    width: 130px;
+    border: 2px solid black;
+    font-size: 120%;
+    font-family: PT Serif;
+    position: relative;
+ text-align: center;
+
+}
+.block2 {
+    background-color: rgba(0, 17, 255, 0.253);
+    color:rgb(0, 26, 255);
+    font-family: Roboto Condensed;
+}
+.block22 {
+    background-color: aquamarine;
+    color: rgb(255, 0, 0);
+    height: 25px;
+    width: 130px;
+    border: 2px solid black;
+    font-size: 120%;
+    font-family: PT Serif;
+    float: right;
+    position: relative;
+    top: 106px;
+}
+.block3 {
+    background-color: rgb(255, 80, 232);
+    color: rgb(95, 247, 171);
+    font-family: Roboto Condensed;
+}
+.block33 {
+    background-color: darkgreen;
+    color: rgb(80, 255, 255);
+    height: 25px;
+    width: 130px;
+    border: 2px solid black;
+    font-size: 120%;
+    font-family: PT Serif;
+    float: right;
+    top: 98px;
+    position: relative;
+}
+.block4 {
+    background-color: gold;
+    font-family: Roboto Condensed;
+}
+.block44 {
+    
+    background-color: rgb(30, 196, 202);
+    color: green;
+    height: 25px;
+    width: 130px;
+    border: 2px solid black;
+    font-size: 120%;
+    font-family: PT Serif;
+    position: relative;
+    float: right;
+    top: 314px;
+}
+.font {
+    font-family: Oswald;
+}
+
+@media (max-width: 768px){ 
+    .row {
+        display:block;
+    }
+}
