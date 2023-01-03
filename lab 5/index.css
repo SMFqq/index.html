@@ -1,0 +1,67 @@
+h1{
+    font-size: 24px;
+    text-align: center;
+    font-size: 120%;
+    
+}
+
+#Mid1{
+    color: black;
+}
+
+#Mid1:hover{
+    color:rgb(43, 189, 202);
+    
+}
+#Mid2{
+    color:rgb(250, 10, 10)
+}
+#Mid2:hover{
+    color: green;
+}
+#Mid3{
+    color:rgba(57, 162, 102, 0.466)
+    
+}
+#Mid3:hover{
+    color: rgb(226, 43, 89);
+}
+#Mid4{
+    color:rgb(31, 29, 172)
+}
+#Mid4:hover{
+    color: aquamarine;
+}
+
+
+   
+
+@media (max-width: 768px){            
+    .Main {
+   
+    display: block;
+    
+    }
+ }
+ 
+ @media (min-width:768px) and (max-width:992px){ 
+ 
+      .Caption{
+         width:50%;
+         float:left;
+      }
+      .Main{
+         justify-content: space-around;
+      }
+     }
+ 
+ @media (min-width:992px){   
+     .Main { 
+        display: flex;
+        justify-content:space-around;
+        align-items: center; 
+        flex-wrap:nowrap;
+        
+        }
+     
+     }
